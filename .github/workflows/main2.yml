@@ -27,5 +27,5 @@ jobs:
           push: true
           file: ./src/Dockerfile
           tags: |
-            fabricioveronez/conversao-temperatura-fc:latest
-            fabricioveronez/conversao-temperatura-fc:${{ github.run_number }}
+            victorgabriel/conversao-temperatura-fc:latest
+            victorgabriel/conversao-temperatura-fc:${{ github.run_number }}
